@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); //Import Font
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.suscripcion {
+    height: 100%;
+    background: #111010;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    & .suscripcionImagen {
+        background-color: #cfa38b;
+        background-image: url('dist/img/designsPreviewFull.png');
+        background-size: cover;
+        width: 50%;
+    }
+    & .suscripcionInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        width: 50%;
+        & h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 106.8%;
+            text-align: left;
+            color: #DFE2EF;
+            padding: 0 0 44px;
+        }
+        & p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 132.4%;
+            text-align: left;
+            color: #A6ACBE;
+            width: 570px;
+            padding: 0 0 68px;
+        }
+        & .suscripcionField {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            padding: 0 0 125px;
+            & button {
+                width: 175px;
+                background: #5B321F;
+                border-radius: 5px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 132.4%;
+                text-align: center;
+                text-transform: none;
+                color: #FFFFFF;
+            }
+            & > div { //Field
+                margin-top: 0;
+                margin-bottom: 0;
+                background: white;
+                & label[class*="focused"] {color: #5B321F;}
+                & div  {
+                    border-top-left-radius: unset;
+                    border-top-right-radius: unset;
+                    &::before {border-bottom: unset;}
+                    &::after {border-bottom: unset;}
+                    &:hover {border-bottom: unset;}
+                }
+            }
+        }
+    }
+}

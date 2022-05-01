@@ -128,7 +128,7 @@ const Dashboard: FunctionComponent = (props: any) => {
 
               <picture>
               <a href="https://github.com/KevinMarcos26"><img src="/img/101-1017465_github-github-icon-png-grey.png"
-                  alt="/img/101-1017465_github-github-icon-png-grey.png" width="30" height="30" /></a>
+                  alt="/img/101-1017465_github-github-icon-png-grey.pngs" width="30" height="30" /></a>
                
           
               </picture>
